@@ -1,0 +1,21 @@
+{
+  "name": "zero-sugar",
+  "owner": {
+    "name": "edward-sh88"
+  },
+  "metadata": {
+    "description": "An honesty mode for Claude — damage-ranked findings, evidence per criticism, calibrated confidence, no politeness padding.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "zero-sugar",
+      "description": "Honesty mode: unvarnished, evidence-backed assessments on demand — weaknesses first, ranked by damage, confidence calibrated out loud.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/zero-sugar"
+      ]
+    }
+  ]
+}

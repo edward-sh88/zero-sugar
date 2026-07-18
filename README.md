@@ -34,8 +34,13 @@ evidence-backed assessments — that's the niche.
 
 ## Install
 
-**Claude Code:** copy the `zero-sugar/` folder (containing `SKILL.md`) into
-`~/.claude/skills/`. Done.
+**Claude Code (plugin):** run `/plugin marketplace add edward-sh88/zero-sugar`,
+then install the `zero-sugar` plugin from it.
+
+**Claude Code (manual):** copy `skills/zero-sugar/` into `~/.claude/skills/`.
+Done.
+
+**skills CLI (works across agents):** `npx skills add edward-sh88/zero-sugar`
 
 **claude.ai:** upload the `zero-sugar.skill` file from the latest release in
 your skill settings.
@@ -74,7 +79,7 @@ all of them are real. The findings are discovered, not manufactured.
 
 ## Design notes
 
-The full contract lives in [`SKILL.md`](SKILL.md): 9 rules, 7 anti-patterns
+The full contract lives in [`SKILL.md`](skills/zero-sugar/SKILL.md): 9 rules, 7 anti-patterns
 (compliment sandwich, hedge inflation, performative cruelty, finding
 inflation, the closing flip…), and edge cases for good work, sensitive
 topics, and life-path decisions.
